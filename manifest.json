@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Apple AI Privacy-Guard",
+  "version": "1.0.0",
+  "description": "Military-grade privacy protection layer for Apple Intelligence and Safari.",
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "host_permissions": [
+    "*://*://*",
+    "*://*://*",
+    "*://*.claude.ai/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Privacy Guard Active"
+  }
+}
