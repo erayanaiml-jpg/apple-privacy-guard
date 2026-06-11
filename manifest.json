@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Apple AI Privacy-Guard",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Military-grade privacy protection layer for Apple Intelligence and Safari.",
   "permissions": [
     "storage",
@@ -15,7 +15,7 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_popup": "popup.html",
+    "default_popup": "./popup.html",
     "default_title": "Privacy Guard Active"
   }
 }
